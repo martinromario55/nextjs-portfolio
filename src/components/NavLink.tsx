@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const NavLink = ({ link }: { link: { url: string; title: string } }) => {
+const NavLink = ({ link, }: { link: { url: string; title: string } }) => {
   const pathName = usePathname();
 
   return (
